@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  background: #282c34;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+p {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.btn {
+  background: #0064e7;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  color: #fff;
+  font-family: inherit;
+  margin: 20px 10px;
+  text-transform: uppercase;
+  outline: none;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.btn-close {
+  background: rgb(161, 0, 0);
+  color: #fff;
+  font-weight: bold;
+  border-radius:  50%;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px 14px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.timer {
+  font-weight: bold;
+  font-size: 5rem;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+

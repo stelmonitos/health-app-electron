@@ -1,0 +1,14 @@
+{
+  "name": "initial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "dependencies": {
+    "electron": "^30.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
